@@ -1,0 +1,5 @@
+Claude outputs/
+*.png
+*.webp
+images/*.jpg
+!images/hero-og.jpg
