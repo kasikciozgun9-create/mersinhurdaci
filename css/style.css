@@ -375,3 +375,9 @@ h1,h2,h3{font-family:var(--fh);font-weight:800;line-height:1.02;letter-spacing:.
 .gallery--5 .ph{aspect-ratio:4/3}
 .gallery--5 .ph:nth-child(1){grid-row:auto;grid-column:span 2;aspect-ratio:auto}
 @media (max-width:640px){.gallery--5 .ph:nth-child(1){grid-column:auto;aspect-ratio:4/3}}
+
+/* rozet: adresten alım kapıda ödeme */
+.stamp--txt{gap:2px}
+.stamp--txt b{font-size:30px;text-transform:uppercase;letter-spacing:.5px}
+.stamp--txt span{font-size:10.5px;letter-spacing:1px}
+@media (max-width:900px){.stamp--txt b{font-size:25px}.stamp--txt span{font-size:9.5px}}
